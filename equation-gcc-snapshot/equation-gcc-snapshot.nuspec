@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>equation-gcc-snapshot</id>
+    <version>12.0.20210425</version>
+    <packageSourceUrl>https://github.com/clin1234/chocolatey-packages
+        </packageSourceUrl>
+    <title>equation-gcc-snapshot (Install)</title>
+    <authors>Equation Solution</authors>
+    <projectUrl>http://www.equation.com/servlet/equation.cmd?fa=fortran
+        </projectUrl>
+    <copyright>Year Software Vendor</copyright>
+    <tags>equation-gcc-snapshot gcc gdb make</tags>
+    <summary>Toolchain containing the latest weekly snapshort of GCC, GDB 10.1, binutils 2.35.1, and GNU make 4.2.</summary>
+    <description>__REPLACE__MarkDown_Okay </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
